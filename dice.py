@@ -1,8 +1,12 @@
 import random
 
+y = 0
 for i in range(10):
     x = random.randint(1,6)
     print(str(i+1)+"回目："+str(x))
+    y += x
+y = y / 10
+print("平均値："+str(y))
 
 # 期待される出力結果例
 """

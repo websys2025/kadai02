@@ -1,12 +1,17 @@
 import random
+sum =0
 
 for i in range(10):
     x = random.randint(1,6)
     print(str(i+1)+"回目："+str(x))
+    sum += x
+
+ave = sum / (i+1)
+print ("平均:"+str(ave))
 
 # 期待される出力結果例
 """
-1回目：4
+1回目：4;
 2回目：1
 3回目：1
 4回目：5

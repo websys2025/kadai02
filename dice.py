@@ -1,8 +1,11 @@
 import random
 
+a = 0
 for i in range(10):
     x = random.randint(1,6)
     print(str(i+1)+"回目："+str(x))
+    a += x
+print("平均値："+str(a/10))
 
 # 期待される出力結果例
 """

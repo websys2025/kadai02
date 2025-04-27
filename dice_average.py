@@ -6,6 +6,9 @@ def roll_average(trial):
     total = 0 # サイコロの出目の合計値を記録する変数
     for n in range(trial): # trial分だけループ処理
         pass # この部分に具体的な処理を書く
+        x = random.randint(1,6)
+        total += x
+        average = total / i
     return average # 関数の戻り値は平均値
 
 # リスト[kaisuu]までの平均値を求める処理
